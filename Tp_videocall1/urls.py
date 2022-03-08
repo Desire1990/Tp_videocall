@@ -11,8 +11,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("App.urls")),
     path('agora/',Agora.as_view(
-        app_id='7d1e2f9bcb3349008c44dfab558568ff',
-        channel='main'
+        app_id='',
+        channel=''
     )),
 ]
 
